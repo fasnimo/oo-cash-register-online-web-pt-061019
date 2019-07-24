@@ -40,7 +40,7 @@ class CashRegister
   def void_last_transaction
     @history.each do |item|
       
-     item -= @total
+     item @total
   end
   end 
  
