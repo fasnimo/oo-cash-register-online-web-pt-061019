@@ -41,7 +41,6 @@ class CashRegister
     
       self.total -= self.prev_total
     
-  end
   end 
  
 end
