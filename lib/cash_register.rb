@@ -38,7 +38,9 @@ class CashRegister
   end
   
   def void_last_transaction
-    
+    @history.each do |item|
+      
+     item - @total
   end
  
 end
