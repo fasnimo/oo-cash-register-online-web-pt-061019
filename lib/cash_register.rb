@@ -42,5 +42,6 @@ class CashRegister
       
      item - @total
   end
+end 
  
 end
